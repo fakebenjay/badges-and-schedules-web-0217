@@ -31,6 +31,8 @@ def printer(name_list)
   room_assignments.each do |room|
     puts "#{room}"
   end
+
+  return "Task completed"
 end
 
 printer(name_sheet)
